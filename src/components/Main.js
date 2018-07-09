@@ -6,8 +6,7 @@ import ffwmpic from '../images/ffwmcard.png'
 import honestycard from '../images/honestycard.png'
 import damncard from '../images/damncard.png'
 import mindgamescard from '../images/mindgamescard.png'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/aboutpic.png'
+import aboutpic from '../images/aboutpic.png'
 
 class Main extends React.Component {
   render() {
@@ -111,7 +110,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={aboutpic} alt="" />
           </span>
           <p>
             Born and raised from Fresno, CA, I've always been intrigued by music

@@ -14,7 +14,7 @@ const Header = props => (
         <p>
           Just a creative that loves, makes, and performs music.
           <br />
-          Follow the journey.
+          Follow the journey below.
         </p>
       </div>
     </div>
