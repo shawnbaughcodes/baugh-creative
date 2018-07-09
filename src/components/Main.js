@@ -35,7 +35,21 @@ class Main extends React.Component {
           <span className="image main">
             <img src={heyyoupic} alt="" />
           </span>
-          <p>Hey You - Out Now on your favorite streaming services.</p>
+          <p>
+            Hey You - Available here:
+            <a className="music-link-icons" href="#">
+              <i className="fa fa-apple" />
+            </a>
+            <a className="music-link-icons" href="#">
+              <i className="fa fa-spotify" />
+            </a>
+            <a className="music-link-icons" href="#">
+              <i className="fa fa-amazon" />
+            </a>
+            <a className="music-link-icons" href="#">
+              <i className="fa fa-google" />
+            </a>
+          </p>
           <span className="image main">
             <img src={ffwmpic} alt="" />
           </span>
