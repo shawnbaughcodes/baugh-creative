@@ -35,39 +35,138 @@ class Main extends React.Component {
           <span className="image main">
             <img src={heyyoupic} alt="" />
           </span>
-          <p>
-            Hey You - Available here:
-            <a className="music-link-icons" href="#">
+          <p className="music-link-wrapper">
+            Hey You - Out Now on your favorite streaming services:
+            <a
+              className="music-link-icons"
+              href="https://itunes.apple.com/us/album/hey-you/1400481669?i=1400482098"
+            >
               <i className="fa fa-apple" />
             </a>
-            <a className="music-link-icons" href="#">
+            <a
+              className="music-link-icons"
+              href="https://open.spotify.com/track/7I7RXmMSAw3EvX2Z7LL2Wg?si=SBDNr4DDSRizO_xNcLUkFQ"
+            >
               <i className="fa fa-spotify" />
             </a>
-            <a className="music-link-icons" href="#">
-              <i className="fa fa-amazon" />
+            <a className="music-link-icons" href="https://youtu.be/94biphTTihc">
+              <i className="fa fa-youtube" />
             </a>
-            <a className="music-link-icons" href="#">
-              <i className="fa fa-google" />
+            <a
+              className="music-link-icons"
+              href="https://soundcloud.com/shawnbaugh2/hey-you"
+            >
+              <i className="fa fa-soundcloud" />
             </a>
           </p>
           <span className="image main">
             <img src={ffwmpic} alt="" />
           </span>
           <p>
-            First For Whats Mine - Out Now on your favorite streaming services.
+            Fight For Whats Mine - Out Now on your favorite streaming services.
+            <a
+              className="music-link-icons"
+              href="https://itunes.apple.com/us/album/fight-for-whats-mine/1396625768?i=1396626067"
+            >
+              <i className="fa fa-apple" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://open.spotify.com/track/07kOk59ZeugKbwzmeNd67X?si=vUb8fwchTTm72_Pn2_GQQg"
+            >
+              <i className="fa fa-spotify" />
+            </a>
+            <a className="music-link-icons" href="https://youtu.be/guA5jfahoX0">
+              <i className="fa fa-youtube" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://soundcloud.com/shawnbaugh2/fight-for-whats-mine"
+            >
+              <i className="fa fa-soundcloud" />
+            </a>
           </p>
           <span className="image main">
             <img src={honestycard} alt="" />
           </span>
-          <p>Honesty - Out Now on your favorite streaming services.</p>
-          <span className="image main">
-            <img src={damncard} alt="" />
-          </span>
-          <p>Damn - Out Now on your favorite streaming services.</p>
+          <p>
+            Honesty - Out Now on your favorite streaming services.
+            <a
+              className="music-link-icons"
+              href="https://itunes.apple.com/us/album/honesty/1391471370?i=1391471396"
+            >
+              <i className="fa fa-apple" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://open.spotify.com/track/7DDBpwrHVJH8McnE3yeSUH?si=K9hnYA6XRdywdyHWvvX9Yw"
+            >
+              <i className="fa fa-spotify" />
+            </a>
+            <a className="music-link-icons" href="https://youtu.be/Vo694p67BXQ">
+              <i className="fa fa-youtube" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://soundcloud.com/shawnbaugh2/honesty"
+            >
+              <i className="fa fa-soundcloud" />
+            </a>
+          </p>
           <span className="image main">
             <img src={mindgamescard} alt="" />
           </span>
-          <p>Mind Games - Out Now on your favorite streaming services.</p>
+          <p>
+            Mind Games - Out Now on your favorite streaming services.
+            <a
+              className="music-link-icons"
+              href="https://itunes.apple.com/us/album/mind-games/1386947197?i=1386947198"
+            >
+              <i className="fa fa-apple" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://open.spotify.com/track/68iAYtudqNBtJaxhnSDDuG?si=rb4u-hrjQR6Wonhk7-__ww"
+            >
+              <i className="fa fa-spotify" />
+            </a>
+            <a className="music-link-icons" href="https://youtu.be/79H35UfztA0">
+              <i className="fa fa-youtube" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://soundcloud.com/shawnbaugh2/mind-games"
+            >
+              <i className="fa fa-soundcloud" />
+            </a>
+          </p>
+          <span className="image main">
+            <img src={damncard} alt="" />
+          </span>
+          <p>
+            Damn - Out Now on your favorite streaming services.
+            <a
+              className="music-link-icons"
+              href="https://itunes.apple.com/us/album/damn/1391460057?i=1391460059"
+            >
+              <i className="fa fa-apple" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://open.spotify.com/track/1GQHOAX8vej8xMAcTAw0fF?si=22_Fnd-MRbWNh5pbWoI66Q"
+            >
+              <i className="fa fa-spotify" />
+            </a>
+            <a className="music-link-icons" href="https://youtu.be/SeP1WRtvA5I">
+              <i className="fa fa-youtube" />
+            </a>
+            <a
+              className="music-link-icons"
+              href="https://soundcloud.com/shawnbaugh2/damn"
+            >
+              <i className="fa fa-soundcloud" />
+            </a>
+          </p>
           {close}
         </article>
 
@@ -79,6 +178,17 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Videos</h2>
+          <span className="image main">
+            <iframe
+              width="560"
+              height="215"
+              src="https://www.youtube.com/embed/TYIPA7z2tHs"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            />
+          </span>
+          <p>Check IDEAS | EPISODE 1.</p>
           <span className="image main">
             <iframe
               width="560"
